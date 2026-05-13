@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSUF Core Course Duplication Claims</title>
+
+<style>
+:root{--navy:#1f4e79;--teal:#008080;--page:#f7f9fb;--border:#c8d4dc;--text:#1f2933;--muted:#5f6c7b;--pale:#f8fbff;--panel:#f5f8fb}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.5;color:var(--text);background:var(--page)}
+header{background:#1f4e79;color:white;padding:1.8rem 1rem}
+header .wrap,main{max-width:1160px;margin:0 auto}
+h1{margin:0 0 .4rem 0;font-size:1.8rem}
+h2{color:var(--navy);margin-top:1.7rem}
+h3{color:#23374d;margin-top:.4rem}
+main{padding:1rem}
+.section{background:white;border:1px solid var(--border);border-radius:6px;padding:1rem 1.25rem;margin:1rem 0}
+.summary{background:var(--pale)}
+.metric-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin:1rem 0}
+.metric{background:white;border:1px solid var(--border);border-radius:6px;padding:1rem;text-align:center}
+.metric .num{color:var(--teal);font-size:1.6rem;font-weight:700}
+.metric .label{color:var(--muted);font-size:.9rem}
+.comparison-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem;align-items:start}
+.panel{border:1px solid var(--border);border-radius:6px;padding:1rem;background:var(--panel);min-width:0}
+.course-card{background:white;border:1px solid #d7e1e8;border-radius:5px;margin:.4rem 0;overflow:hidden}
+.course-card summary{cursor:pointer;padding:.58rem .7rem;color:#0645ad;font-weight:600;list-style:none}
+.course-card summary::-webkit-details-marker{display:none}
+.course-card summary:hover{text-decoration:underline;background:#f3f8fc}
+.course-code{margin-right:.45rem}
+.course-title{color:#27496d;font-weight:500}
+.role{display:block;margin-top:.1rem;color:var(--muted);font-size:.85rem;font-weight:400;text-decoration:none}
+.course-description{padding:.75rem .9rem .9rem .9rem;border-top:1px solid #e1e8ed;background:#fbfdff}
+.eval{margin-top:1rem;padding:1rem;background:#fafafa;border:1px solid #e5e7eb;border-radius:6px}
+.eval p{margin:.5rem 0}
+table{width:100%;border-collapse:collapse;margin:.75rem 0;background:white}
+th,td{border:1px solid var(--border);padding:.55rem;vertical-align:top}
+th{background:#eaf3f8;color:#1f4e79}
+.controls{margin:1rem 0;display:flex;gap:.5rem;flex-wrap:wrap}
+button{border:1px solid var(--border);background:white;color:var(--navy);border-radius:5px;padding:.4rem .7rem;cursor:pointer;font-weight:600}
+button:hover{background:#eef6fb}
+.nav{margin:0 0 1rem 0}
+.nav a{color:#0645ad;text-decoration:none}
+.nav a:hover{text-decoration:underline}
+@media(max-width:760px){.comparison-grid,.metric-grid{grid-template-columns:1fr}}
+</style>
+
+</head>
+<body>
+<header>
+<div class="wrap">
+<h1>CSUF Core Course Duplication Claims</h1>
+<p>Review of required CSUF Agricultural Systems Management core courses after excluding GE, transfer-level coursework, and electives.</p>
+</div>
+</header>
+<main>
+<p class="nav"><a href="index.html">Return to PSLO Duplication Analysis</a> | <a href="course-duplication.html">Return to Course Duplication Analysis</a></p>
+
+<section class="section">
+<p><strong>Purpose.</strong> This page evaluates the claim of core-course duplication between the Coalinga College BS in Agriculture Science and Technology and the CSU Fresno BS in Agricultural Systems Management. The analysis focuses on the CSUF Ag Systems Management major core after excluding general education, community-college transfer-level coursework, and major electives.</p>
+</section>
+
+<div class="controls">
+<button onclick="document.querySelectorAll('details.course-card').forEach(d=>d.open=true)">Expand all course descriptions</button>
+<button onclick="document.querySelectorAll('details.course-card').forEach(d=>d.open=false)">Collapse all course descriptions</button>
+</div>
+
+<section class="section summary">
+<h2>Core-Course Duplication Calculation</h2>
+<p>The CSUF Agricultural Systems Management degree lists 65 major units. The duplication analysis should not count GE coursework, community-college transfer-level coursework, or CSUF major electives when evaluating duplication of required major-core coursework. After excluding those categories, 43 units of CSUF major core remain for the core-course comparison.</p>
+<div class="metric-grid">
+<div class="metric"><div class="num">65</div><div class="label">CSUF major requirement units</div></div>
+<div class="metric"><div class="num">12</div><div class="label">excluded GE and transfer-level units</div></div>
+<div class="metric"><div class="num">10</div><div class="label">excluded elective units</div></div>
+<div class="metric"><div class="num">43</div><div class="label">remaining CSUF core units</div></div>
+</div>
+<p>Of the remaining 43 CSUF core units, 31 units were not identified as duplicative in any way with Coalinga College BDP courses in the CSUF-submitted course matrix. This means the maximum possible duplication in CSUF core course requirements is 12 of 43 units, or approximately 28%, assuming the CSUF duplication claims are accurate.</p>
+</section>
+
+<section class="section">
+<h2>Courses Excluded Before Evaluating CSUF Core Duplication</h2>
+<table>
+<tr><th>Course</th><th>Title</th><th>Units</th><th>Reason for Exclusion</th></tr>
+<tr><td>AGBS 1 or ECON 40</td><td>Introductory Agricultural Economics or Principles of Microeconomics</td><td>3</td><td>GE Area 4B; excluded from duplication analysis.</td></tr>
+<tr><td>MATH 11</td><td>Elementary Statistics</td><td>3</td><td>GE Area 2; excluded from duplication analysis.</td></tr>
+<tr><td>PLANT 71</td><td>Agricultural Water</td><td>3</td><td>Community college transfer-level coursework; corresponds to CC AET 021.</td></tr>
+<tr><td>MEAG 3</td><td>Agricultural Tractors</td><td>3</td><td>Community college transfer-level coursework; corresponds to CC AG 014.</td></tr>
+
+</table>
+<div class="comparison-grid">
+<div class="panel">
+<h3>General Education Courses</h3>
+<details class="course-card">
+<summary><span class="course-code">AGBS 1</span><span class="course-title">Introductory Agricultural Economics</span><span class="role">CSUF GE course, excluded; 3 units</span></summary>
+<div class="course-description">Microeconomic principles of resource allocation, production, cost, and market price equilibrium with primary application to farms and agribusinesses. GE Area 4B.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">ECON 40</span><span class="course-title">Principles of Microeconomics</span><span class="role">CSUF GE course, excluded; 3 units</span></summary>
+<div class="course-description">Introduction to microeconomic theories of demand, production, and income distribution; price determination and resource allocation; government regulation; applied economic analysis. GE Area 4B.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">MATH 11</span><span class="course-title">Elementary Statistics</span><span class="role">CSUF GE course, excluded; 3 units</span></summary>
+<div class="course-description">Elementary probability models, sampling, descriptive measures, confidence intervals, hypothesis testing, chi-square, nonparametric methods, and regression. GE Area 2.</div>
+</details>
+</div>
+<div class="panel">
+<h3>Transfer-Level Coursework</h3>
+<details class="course-card">
+<summary><span class="course-code">PLANT 71</span><span class="course-title">Agricultural Water</span><span class="role">CSUF transfer-level coursework, excluded; 3 units</span></summary>
+<div class="course-description">Water resources and problems in California; water requirements for agricultural and ornamental crops; irrigation scheduling and application methods. Corresponds to CC AET 021.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">MEAG 3</span><span class="course-title">Agricultural Tractors</span><span class="role">CSUF transfer-level coursework, excluded; 3 units</span></summary>
+<div class="course-description">Study of functions, physical capabilities, applications, economics, and improvement of tractors. Testing and analysis in laboratory and field conditions. Corresponds to CC AG 014.</div>
+</details>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>CSUF Core Courses Not Identified as Duplicative</h2>
+<p>The following 31 units remain in the CSUF Ag Systems Management major core after exclusions and were not identified as duplicative with Coalinga College BDP courses in the CSUF course matrix.</p>
+<div class="comparison-grid">
+<div class="panel">
+<h3>Agribusiness, Management, Safety, and Machinery</h3>
+<details class="course-card">
+<summary><span class="course-code">AGBS 31</span><span class="course-title">Farm Accounting</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Basic concepts and principles of financial accounting systems applied to farm operations; recording transactions under cash and accrual accounting; preparation and analysis of enterprise records and financial statements.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">AGBS 71</span><span class="course-title">Agricultural Business Statistics</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Statistical techniques and formal reasoning applications to management and social and agricultural sciences, including descriptive and inferential statistics, hypothesis testing, and regression.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">AGBS 120</span><span class="course-title">Agribusiness Management</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Organizational forms and management functions of agribusiness firms; human resource management; management science principles; operations research techniques for solving agribusiness problems.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">MEAG 5</span><span class="course-title">Power Equipment Safety</span><span class="role">CSUF core course not identified as duplicative; 1 unit</span></summary>
+<div class="course-description">Safety training for operation of power equipment. Meets requirements for classroom safety instruction on tractors and similar power equipment.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">MEAG 20</span><span class="course-title">Agricultural Machinery and Equipment</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Functions and applications of machinery and equipment. Setup, calibration, analysis, and adjustment of agricultural machinery common to the San Joaquin Valley.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">MEAG 103</span><span class="course-title">Electro-Hydraulics</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Operation, service, adjustment, and function of fluid power systems. Design application to agricultural equipment, with emphasis on computerized electronic controls of hydraulic systems.</div>
+</details>
+</div>
+<div class="panel">
+<h3>Food Safety, Manufacturing, Fluid Power, Quality, and Operations</h3>
+<details class="course-card">
+<summary><span class="course-code">ASCI 175</span><span class="course-title">Agricultural Food Safety Systems</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Food safety systems used in the agricultural industry, including best agricultural and manufacturing practices, SOPs, sanitation, HACCP, and ServSafe.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">IT 74</span><span class="course-title">Manufacturing Processes</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Study of how consumer and industrial products are manufactured, with topics including material addition, forming, casting, removal, separation, assembly, and finishing.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">IT 110</span><span class="course-title">Fluid Power</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Fluid power principles and applications, including hydraulics, pneumatics, vacuum, pumps, controls, transmission systems, actuators, and fluidics.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">IT 117</span><span class="course-title">Quality Assurance</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Quality assurance principles and practices in industry, including sampling, testing, source surveillance, process control, and measurement procedures.</div>
+</details>
+<details class="course-card">
+<summary><span class="course-code">IT 118</span><span class="course-title">Production Operations</span><span class="role">CSUF core course not identified as duplicative; 3 units</span></summary>
+<div class="course-description">Survey of production manufacturing operations: quality assurance, work sampling, testing, time and motion study, routing, scheduling, inventory control, material handling, and automation.</div>
+</details>
+</div>
+</div>
+</section>
+
+<section class="section summary">
+<h2>Evaluation</h2>
+<div class="eval">
+<p><strong>Maximum possible core-course duplication:</strong> 12 of 43 remaining core units, or approximately 28%.</p>
+<p>This 28% value should be understood as a maximum, not as a confirmed overlap percentage. It assumes the accuracy of the CSUF duplication claims for the remaining core courses. The quality and accuracy of those course-level claims are evaluated in the related course duplication analysis page.</p>
+<p>The main conclusion is that most of the required CSUF Ag Systems Management core is not identified as duplicative with the Coalinga College BDP. The non-duplicative core includes accounting, statistics, agribusiness management, machinery, safety, electro-hydraulics, food safety, manufacturing processes, fluid power, quality assurance, and production operations.</p>
+</div>
+</section>
+</main>
+</body>
+</html>
