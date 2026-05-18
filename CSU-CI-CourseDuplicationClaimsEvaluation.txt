@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSUCI Course Comparison Review</title>
+<style>
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#f4f6f8;
+color:#222;
+margin:0;
+line-height:1.5
+}
+header{
+background:#1f4e79;
+color:white;
+padding:24px
+}
+main{
+max-width:1100px;
+margin:auto;
+padding:18px
+}
+section{
+background:white;
+border:1px solid #d0d7de;
+border-radius:5px;
+padding:18px;
+margin-bottom:18px
+}
+h1,h2,h3{
+margin-top:0
+}
+h2{
+color:#1f4e79
+}
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:18px
+}
+.panel{
+border:1px solid #d0d7de;
+border-radius:5px;
+padding:14px;
+background:#fafbfc
+}
+details{
+margin-bottom:10px;
+border:1px solid #d9dfe5;
+border-radius:4px;
+background:white
+}
+summary{
+cursor:pointer;
+padding:10px;
+color:#0645ad;
+font-weight:bold
+}
+.summarytext{
+padding:10px;
+border-top:1px solid #e5e7eb
+}
+.note{
+background:#f9fafb;
+border:1px solid #e5e7eb;
+padding:12px;
+margin-top:12px
+}
+table{
+width:100%;
+border-collapse:collapse
+}
+th,td{
+border:1px solid #d0d7de;
+padding:8px;
+vertical-align:top
+}
+th{
+background:#eef3f7
+}
+a{
+color:#0645ad;
+text-decoration:none
+}
+a:hover{
+text-decoration:underline
+}
+@media(max-width:760px){
+.grid{
+grid-template-columns:1fr
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Review of CSU Channel Islands Duplication Concerns</h1>
+<p>Comparison of the proposed CSUCI Sustainable Agriculture B.S. and the proposed Coalinga College Agriculture Science and Technology B.S.</p>
+</header>
+
+<main>
+
+<section>
+<p><a href="index.html">PSLO Analysis</a> |
+<a href="CourseDuplication.html">Course Duplication Review</a> |
+<a href="DuplicationInCoreCourseRequirements.html">Core Requirements Review</a></p>
+</section>
+
+<section>
+
+<h2>Overview</h2>
+
+<p>
+The CSUCI Sustainable Agriculture proposal and the Coalinga College Agriculture Science and Technology proposal are both related to the broader field of agriculture. However, the programs appear to differ substantially in emphasis, technical instruction, and workforce preparation.
+</p>
+
+<p>
+The CSUCI program description emphasizes sustainable agriculture, food systems, social responsibility, labor, policy, community engagement, and agroecological perspectives. The Coalinga College proposal is organized around agriculture science integration with technology, specifically precision agriculture, sensing systems, automation, AI/ML, remote sensing, robotics, and geospatial analytics.
+</p>
+
+<p>
+Some overlap in agricultural subject matter is expected between agricultural degrees. The primary issue is whether the courses and programs are substantially equivalent in instructional purpose, technical content, and intended competencies to constitute duplication.
+</p>
+
+</section>
+
+<section>
+
+<h2>Upper-Division GE Courses</h2>
+
+<table>
+
+<tr>
+<th>Course</th>
+<th>Reason for Separate Treatment</th>
+</tr>
+
+<tr>
+<td>SOC 370 Agricultural Technology Law, Ethics, and Cybersecurity</td>
+<td>Upper-division general education course focused on technology governance, cybersecurity, regulation, ethics, and digital systems.</td>
+</tr>
+
+<tr>
+<td>ECON 360 Precision Agriculture Economics and Technology Adoption</td>
+<td>Upper-division general education course emphasizing economic analysis, technology adoption, ROI, and strategic planning.</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Course Comparisons</h2>
+
+<h3>AGST 370 and SUAG 400</h3>
+
+<div class="grid">
+
+<div class="panel">
+
+<h3>Coalinga College</h3>
+
+<details>
+<summary>AGST 370 Agriculture 4.0 Weed Management</summary>
+
+<div class="summarytext">
+CC CRPSCI 032 is our Weeds and Poisonous Plants class that aligns with SUAG 400. CRPSCI 032 is not a requirement for the CC degree. The focus of AGST 370 is specifically on technology and weed management integration. This course covers weed management integrated with machine vision weed detection, AI/ML decision systems, laser weeding, autonomous spraying systems, remote sensing workflows, and variable-rate herbicide platforms.
+</div>
+
+</details>
+
+</div>
+
+<div class="panel">
+
+<h3>CSU Channel Islands</h3>
+
+<details open>
+<summary>SUAG 400 Weed Management</summary>
+
+<div class="summarytext">
+Advanced exploration of weed management principles including weed ecology, identification, integrated weed management, herbicide modes of action, biological and cultural controls, sustainability, regulation, and new technological advancements in weed control.
+</div>
+
+</details>
+
+</div>
+
+</div>
+
+<div class="note">
+Both courses include weed management principles. However, AGST 370 requires students to complete 21 units of upper division technology core that is more narrowly focused on Agriculture 4.0 technologies including machine vision, automation, remote sensing, and autonomous application systems.
+</div>
+
+</section>
+
+<section>
+
+<h3>AGST 365 and BIOL 472</h3>
+
+<div class="grid">
+
+<div class="panel">
+
+<h3>Coalinga College</h3>
+
+<details>
+<summary>AGST 365 Advanced Technologies for Integrated Pest Management</summary>
+
+<div class="summarytext">
+Integrated pest management using remote sensing, automated monitoring, autonomous systems, UAS platforms, machine vision, IoT monitoring systems, and machine-learning pest forecasting.
+</div>
+
+</details>
+
+</div>
+
+<div class="panel">
+
+<h3>CSU Channel Islands</h3>
+
+<details>
+<summary>BIOL 472 Integrated Pest Management</summary>
+
+<div class="summarytext">
+Course listed in the CSUCI duplication document. Full catalog description was not included in the supplied material.
+</div>
+
+</details>
+
+</div>
+
+</div>
+
+<div class="note">
+Traditional IPM overlap exists. However, AGST 365 requires students to complete 21 units of upper division technology core that is more narrowly focused on Agriculture 4.0 technologies. AGST 365 adds remote sensing, automation, machine vision, and data-driven monitoring systems that were not identified in the CSUCI material.
+</div>
+
+</section>
+
+<section>
+
+<h3>AGST 380 and BIOL 452</h3>
+
+<div class="grid">
+
+<div class="panel">
+
+<h3>Coalinga College</h3>
+
+<details>
+<summary>AGST 380 Technology-Enabled Agricultural Entomology</summary>
+
+<div class="summarytext">
+Entomology integrated with AI/ML forecasting, growing degree day models, automated pest monitoring, remote sensing, and spatial pest management systems.
+</div>
+
+</details>
+
+</div>
+
+<div class="panel">
+
+<h3>CSU Channel Islands</h3>
+
+<details>
+<summary>BIOL 452 Entomology</summary>
+
+<div class="summarytext">
+Course listed in the CSUCI duplication document.
+</div>
+
+</details>
+
+</div>
+
+</div>
+
+<div class="note">
+The courses share entomology foundations. Howevewr, AGST 380 requires students to complete 21 units of upper division technology core that is more narrowly focused on Agriculture 4.0 technologies. AGST 380 extends those foundations into precision monitoring, AI-assisted forecasting, and digital pest management systems.
+</div>
+
+</section>
+
+<section>
+
+<h2>Conclusion</h2>
+
+<p>
+The CSUCI and CC degrees overlap in that they address the broader realm of agriculture education. However, the programs are substantially different in instructional direction and workforce preparation.
+</p>
+
+<p>
+The CSUCI Sustainable Agriculture proposal is centered on sustainable agriculture systems, food systems, policy, social responsibility, and agroecological perspectives. The Coalinga College proposal is centered on integrating agricultural science with precision agriculture technologies, sensing systems, automation, remote sensing, robotics, AI/ML, and Agriculture 4.0 implementation.
+</p>
+
+<p>
+At the course level, the CSUCI comparisons generally identify overlap in broad subject matter rather than equivalence in instructional content or technical competencies.
+</p>
+
+</section>
+
+</main>
+</body>
+</html>
